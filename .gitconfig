@@ -1,0 +1,9 @@
+# This is Git's per-user configuration file.
+[user]
+	name =
+	email =
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[alias]
+	l = !git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
